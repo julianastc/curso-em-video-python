@@ -9,4 +9,4 @@ lista_alunos = (aluno_1, aluno_2, aluno_3, aluno_4)
 
 aluno_escolhido = random.choice(lista_alunos)
 
-print(f"o aluno escolhido é {aluno_escolhido}")
+print(f"o aluno escolhido é {aluno_escolhido}!")
