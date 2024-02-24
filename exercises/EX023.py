@@ -1,10 +1,10 @@
 
 numero = int(input("Informe um número: "))
 
-un_numero = int(str(numero)[-1])
-dez_numero = int(str(numero)[-2])
-cen_numero = int(str(numero)[-3]) 
-mi_numero = int(str(numero)[-4])
+un_numero = numero // 1 % 10
+dez_numero = numero // 10 % 10
+cen_numero = numero // 100 % 10
+mi_numero = numero // 1000 % 10
 
 
 print("Analisando o número...")
