@@ -6,8 +6,7 @@ dez_numero = numero // 10 % 10
 cen_numero = numero // 100 % 10
 mi_numero = numero // 1000 % 10
 
-
-print("Analisando o número...")
+print("\033[45mAnalisando o número...\033[m")
 
 print(f'''
     Unidade: {un_numero}

@@ -7,6 +7,6 @@ leap_year_rule_two = year % 100 != 0
 is_year_leap = leap_year_rule_one and leap_year_rule_two
 
 if is_year_leap:
-    print(f'O ano {year} é bissexto. ')
+    print(f'\033[32mO ano {year} é bissexto. ')
 else: 
-    print(f'O ano {year} NÃO é bissexto. ')
+    print(f'\033[31mO ano {year} NÃO é bissexto. ')

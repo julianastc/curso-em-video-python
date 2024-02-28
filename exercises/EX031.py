@@ -8,4 +8,4 @@ else:
     price = trip_distance * 0.45
 
 
-print(f'A passagem custará R${price:.2f}!')
+print(f'A passagem custará \033[43mR${price:.2f}\033[m!')
